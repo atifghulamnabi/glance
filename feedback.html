@@ -1,0 +1,306 @@
+<html>
+<head>
+	<title> Glance World Travels </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/mystyle2.css" type="text/css"/>
+	
+	
+	<link rel="icon" href="images/ff.png" type="image/png" sizes="16x16">
+	<!-- script to handle navbar underneth container, starts here -->
+	<script>
+		var onResize = function() {
+		  // apply dynamic padding at the top of the body according to the fixed navbar height
+		  $("body").css("padding-top", $(".navbar-fixed-top").height());
+		};
+
+		// attach the function to the window resize event
+		$(window).resize(onResize);
+
+		// call it also when the page is ready after load or reload
+		$(function() {
+		  onResize();
+		});
+	</script>
+	
+
+<!-- script to handle navbar underneth container, ends here -->
+
+<!-- script for partners slider starts here -->
+<script src="js/endless_scroll_min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        $("#pslider").endlessScroll({ width: '100%', height: '100px', steps: -2, speed: 40, mousestop: true });
+        
+    });
+</script>
+<!-- script for partners slider ends here -->
+
+	<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?4DQ6uKJQplj5wa88QrIIFbisYZtOIB5U";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zopim Live Chat Script-->
+</head>
+<body>
+<div class="container-fluid">
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="z-index:9999999;">
+		
+		<header class="myheader"> 
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/transparentlogo.png" width="200px" class="img-responsive"/>
+				</div>
+				<div class="col-sm-3 col-sm-offset-7">
+					<div class="socialicon">
+						<a href="https://www.facebook.com/Glance-World-Travel-Tourism-1562517704041555/" target="_blank"><img src="images/fb.png"  /></a>
+						<a href="https://twitter.com/GlanceWorld2016" target="_blank"><img src="images/twitter.png"  /></a>
+						<a href="https://www.linkedin.com/in/glance-world-travel-and-tourism-818444118?trk=hp-identity-name" target="_blank"><img src="images/in.png"  /></a>
+						
+						<div id="custom-search-input">
+								<div class="input-group col-md-12">
+									<input type="text" class="form-control input-lg" placeholder="Search Here" />
+									<span class="input-group-btn">
+										<button class="btn btn-info btn-lg" type="button">
+											<i class="glyphicon glyphicon-search"></i>
+										</button>
+									</span>
+								</div>
+							</div>
+					</div>
+					
+				</div>
+			</div>
+		</header>
+		  
+			
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+			  </button>
+			  
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav nav-fixed-top" id="navlist">
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a href="#" >Book<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="FindHotel.aspx">Book a hotel</a></li>
+					  <li><a href="bookFlight.html">Book a flight</a></li>
+					  <li><a href="bookCar.html">Book a car</a></li>  
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="travels.html" >Travels<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="groupTravel.html">Group Travel</a></li>
+					  <li><a href="sportsTravel.html">Sports Travel</a></li>
+					  <li><a href="youthTravel.html">Youth Travel</a></li> 
+					  <li><a href="medicalToursim.html">Medical Tourism</a></li>
+					  <li><a href="businessTravel.html">Business Travel</a></li>
+					  <li><a href="leisureTravel.html">Leisure Travel </a></li> 
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="holidays.html" >Holidays<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="educationHoliday.html">Educational Holidays</a></li>
+					  <li><a href="adventure.html">Adventure Trips</a></li>
+					  <li><a href="cruiseHoliday.html">Cruise Holidays</a></li> 
+					  <li><a href="weddingAndHoneymoon.html">Weddings and Honeymoon</a></li>
+					  <li><a href="safariHoliday.html">Safari Holidays</a></li>
+					  <li><a href="beachHoliday.html">Beach Holidays</a></li> 
+					  <li><a href="skiHoliday.html">SKI Holidays</a></li> 
+					</ul>
+				</li> 
+				<li class="dropdown">
+					<a href="tours.html">Tours<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="dayExcursion.html">Day Excursion</a></li>
+					  <li><a href="skytours.html">Sky Tours</a></li>
+					  <li><a href="seatours.html">Sea Tours</a></li> 
+					  <li><a href="waterparks.html">Water and Theme Parks</a></li>
+					  <li><a href="educationaltours.html">Educational Tours</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="cruiselines.html"  >Cruise Lines<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="costaCruise.html">Costa Cruise</a></li>
+					  <li><a href="royalCaribbean.html">Royal Caribbean</a></li>
+					  <li><a href="mscCruise.html">MSC Cruise</a></li> 
+					  
+					</ul>
+				</li> 
+				<li class="dropdown">
+					<a href="mice.html">MICE<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="meetings.html">Meetings</a></li>
+					  <li><a href="incentives.html">Incentives</a></li>
+					  <li><a href="conferences.html">Conference</a></li>
+					  <li><a href="events.html">Events</a></li>
+					  
+					</ul>
+				</li> 
+				<li><a href="hotdeals.html">Hot Deals</a></li>
+				<li class="dropdown">
+					<a href="services.html">Other Services<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="visaServices.html">Visa services</a></li>
+					  <li><a href="hotels.html">Hotels</a></li>
+					  <li><a href="trainBooking.html">Trains bookings</a></li>
+					  <li><a href="insurance.html">Insurance</a></li>
+					  <li><a href="carRental.html">Rent a car</a></li>
+					  <li><a href="transfer.html">Transfers </a></li>
+					  
+					</ul>
+				</li>  
+				<li class="dropdown">
+					<a href="about.html" >About us<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="management.html">Senior Management</a></li>
+					  <li><a href="team.html">Team</a></li>
+					  <li><a href="profile.html">Company Profile</a></li>
+					</ul>
+				</li>   
+				<li><a href="contact.html">Contact Us</a></li>
+				
+			  </ul>
+			  
+			</div>
+		  
+		</nav>
+	</div>
+	
+	<div class="container">
+		<div class="feedbackform">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-1">
+				<form class="form-horizontal">
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="name">Name:</label>
+						<div class="col-sm-8">
+						  <input type="text" class="form-control" id="name" placeholder="Enter name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="email">Email:</label>
+						<div class="col-sm-8">
+						  <input type="email" class="form-control" id="email" placeholder="Enter email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="company">Company:</label>
+						<div class="col-sm-8">
+						  <input type="text" class="form-control" id="company" placeholder="Enter company">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="name">How Do Your Rate Our Services Throughout The Work?</label>
+						<div class="radio col-sm-8">
+							<label class="radio-inline"><input type="radio" name="optradio">Excellent </label>
+							<label class="radio-inline"><input type="radio" name="optradio">V.Good </label>
+							<label class="radio-inline"><input type="radio" name="optradio">Good</label>
+							<label class="radio-inline"><input type="radio" name="optradio">Average</label>
+							<label class="radio-inline"><input type="radio" name="optradio">Poor</label>
+
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="reason">Please Tell Us Main Reasons For Your Choice:</label>
+						<div class="col-sm-8">
+						  <textarea class="form-control" rows="5" id="comment"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="name">Was The Information Easy To Locate?</label>
+						<div class="radio col-sm-8">
+							<label class="radio-inline"><input type="radio" name="optradio">Yes </label>
+							<label class="radio-inline"><input type="radio" name="optradio">No </label>
+							
+
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="name">Was The Information Easy To Understand</label>
+						<div class="radio col-sm-8">
+							<label class="radio-inline"><input type="radio" name="optradio">Yes </label>
+							<label class="radio-inline"><input type="radio" name="optradio">No </label>
+							
+
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="name">Was Our Website Helpful In Meeting Your Desired Purpose?</label>
+						<div class="radio col-sm-8">
+							<label class="radio-inline"><input type="radio" name="optradio">Very Helpful  </label>
+							<label class="radio-inline"><input type="radio" name="optradio">Somehow Helpful  </label>
+							<label class="radio-inline"><input type="radio" name="optradio">Not Helpful </label>
+							<label class="radio-inline"><input type="radio" name="optradio">Very Unhelpful</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-4" for="name">Overall satisfaction </label>
+						<div class="radio col-sm-8">
+							<label class="radio-inline"><input type="radio" name="optradio">VERY Satisfied </label>
+							<label class="radio-inline"><input type="radio" name="optradio">Satisfied </label>
+							<label class="radio-inline"><input type="radio" name="optradio">Unsatisfied </label>
+							<label class="radio-inline"><input type="radio" name="optradio">Very Unsatisfied </label>
+						</div>
+					</div>
+					<div class="col sm-8 col-sm-offset-4">
+					<a type="submit" class="btn btn-primary" href="mailto:info@glanceworldtravels.com">Submit</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		</div>
+		<div class="userad">
+			<img src="images/ad.jpg" class="img-responsive" />
+		</div> <br/>
+		
+		<div class="panel panel-default" id="myfooter">
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-sm-2">
+						<p>
+							<h4>Address</h4><hr/>
+							P.O Box 22950, Dubai, UAE <br/>
+							T: +971-4-3949123 <Br/>F: +971-4-3949409<br/>
+							E: info@glanceworldtravels.com <br/>W: www.glanceworldtravels.com
+						</p>
+					</div>
+					<div class="col-sm-2 col-sm-offset-8">
+					<p>
+						<h4>Other Links</h4><hr/>
+						<ul class="otherlinks">
+							<li><a href="pdf/Company Profile.pdf" target="_blank">Profile</a></li>
+							<li><a href="disclaimer.html">Disclaimer</a></li>
+							<li><a href="feedback.html">Feedback</a></li>
+							<li><a href="home.html">Terms & Conditions</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="home.html">Sitemap</a></li>
+						</ul>
+					</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12" style="border-top:1px solid white; padding-top:7px;">
+						<i>Copyright 2016 Glance World Travels.  All rights reserved</i>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+</body>
+</html>
